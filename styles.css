@@ -1,0 +1,59 @@
+.navbar {
+padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+font-family: 'Ubuntu';
+font-size: 2.5rem;
+font-weight: bold;
+}
+
+.nav-item {
+padding: 0 18px;
+}
+
+.nav-link {
+font-size: 1.2rem;
+font-family: 'Montserrat-Black',sans-serif;
+}
+.nav-link:hover{
+color:#442727;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 25%;
+    max-width: 25%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
